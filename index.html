@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>SHOHI'S PORTFOLIO</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" />
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+
+  <body> <!-- ここから本文開始 -->
+    <h1>SHOHI'S PORTFOLIO </h1>
+    <section id="profile"><h2>PROFILE</h2></section>
+    <div>
+      <img src="profile.jpg" alt="プロフィール画像" width="200px" />
+      <ul>
+       <p><strong>樋上 翔陽（ひがみ しょうひ）</strong></p>
+       <li><strong>職業</strong>：高専4年生</li>
+       <li><strong>年齢</strong>：18歳（12/21時点）</li>
+       <li><strong>誕生日</strong>：1/18 </li>
+       <li><strong>得意分野</strong>：回路、電気系</li>
+      </ul>
+    </div>
+    <p></p>
+    <section id="skill"><h2>SKILL</h2></section>
+    <ul>
+      <li><strong>機械</strong>
+        <p>
+          <ul>
+            <li>工作機械：旋盤、ボール盤（半年、学校授業レベル）</li>
+            <li>設計ソフト：Creo（2年、学校授業レベル）</li>
+          </ul>
+        </p>
+      </li>
+      <li><strong>電気</strong>
+        <p>
+          <ul>
+            <li>回路製造：はんだ付け（4年）</li>
+            <li>設計ソフト：kicad（4年、学校授業レベル+独学）</li>
+          </ul>
+        </p>
+      </li>
+      <li><strong>プログラム</strong>
+        <p>
+          <ul>
+            <li>プログラム言語：Arduino言語（3年、学校授業レベル）、python言語（半年、学校授業レベル）</li>
+          </ul>
+        </p>
+      </li>
+    </ul>
+
+    <section id="activities"><h2>FOUNDATION　FOR RESEARCH　ACTIVITIES(基礎研究)</h2></section>
+    <ul>
+      <li><strong>研究の概要</strong>
+        <p></p>
+        <p1>
+          基礎研究は、高専4年生のカリキュラムの一環で、4月から11月までの約半年間、ものづくりに取り組むプロジェクトです。
+          11月には高専祭で、基礎研究で作成した成果物を展示・発表します。
+          私たちのテーマは、回転寿司店のシステムをメカトロニクスの技術でよりよくすることです。
+          私たちは5人のチームで、寿司をお皿にのせて回転レーンに流すという基本的な動作に加えて、
+          寿司の認識や注文のシステム、鮮度の管理、破棄の自動化などを自分たちで考えて実現します。
+        </p1>
+      </li>
+      <li><strong>成果物</strong>
+        <p>
+          <video controls src="zentai.mp4" width="400px"></video>
+        </p>
+        <p1>
+          上の動画が完成したものです。
+        </p1>
+        <p1>
+          私が担当したのは回路とお皿を回転レーンから破棄するプログラムです。
+        </p1>
+        <p>
+          <img src="kairo1.jpg" alt="回路1の画像" width="400px" />
+        </p>
+        <p1>
+          作った回路はArduinoのシールド回路とソレノイド駆動回路です。
+        </p1>
+        <p>
+          <video controls src="haki.mp4" width="400px"></video>
+        </p>
+        <p1>
+          上の動画はお皿を回転レーンから破棄するプログラムが動いている様子です。
+          今回は回転レーンを3周したらお皿を破棄するようにしました。
+          お皿の側面にArucoマーカーを巻き付け読み取ります。3回読み取ったら
+          お皿を破棄するシリンダーが駆動するプログラムを作りました。
+          使用言語はpythonです。
+        </p1>
+      </li>
+    </ul>
+　　
+    <section id="records"><h2>PAST RECORDS</h2></section>
+    <ul>
+      <li><strong>FIRST</strong>
+        <p>
+          <img src="kairo2.png" alt="回路2の画像" width="400px" />
+        </p>
+        <p1>
+          上の写真は高専3年生のときの授業で設計したサウンドグラフィックイコライザーシールドです。
+        </p1>
+      </li>
+      <li><strong>SECOND</strong>
+        <p>
+          <video controls src="game.mp4" width="400px"></video>
+        </p>
+        <p1>
+          上の動画は高専4年生の時にtkinterを用いて作成したゲームです。
+        </p1>
+      </li>
+    </ul>
+
+  <ul id="page-link">
+      <li><a href="#profile">PROFILE</a></li>
+      <li><a href="#skill">SKILL</a></li>
+      <li><a href="#activities">基礎研究</a></li>
+      <li><a href="#records">PAST RECORDS</a></li>
+
+  </ul>
+  </body> <!-- ここまで本文終了 -->
+</html>
